@@ -70,9 +70,6 @@ section {
   display: flex;
   gap: 40px;
 }
-.nav-item {
-  padding: 24px 0;
-}
 .contacts {
   margin-left: auto;
 }
@@ -87,6 +84,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -141,8 +139,18 @@ section {
 .hero-button:focus {
   background-color: #404bbf;
 }
-.features-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features-list {
   display: flex;
