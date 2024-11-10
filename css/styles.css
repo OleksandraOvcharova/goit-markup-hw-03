@@ -64,11 +64,13 @@ section {
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
   gap: 40px;
-  align-items: center;
+}
+.nav-item {
   padding: 24px 0;
 }
 .contacts {
@@ -206,7 +208,7 @@ section {
   color: #434455;
 }
 .team-item-description {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .portfolio {
